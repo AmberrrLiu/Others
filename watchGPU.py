@@ -49,9 +49,9 @@ def send_email(content, msg_from, passwd, msg_to):
     finally:
         quit()
 if __name__ == "__main__":
-    msg_from = '444683639@qq.com' # 发送方邮箱
-    passwd = 'sesgnuzldcpdbjhj'  # 填入发送方邮箱的授权码
-    msg_to = '444683639@qq.com'  # 收件人邮箱
+    msg_from = '444xxxxxx@qq.com' # 发送方邮箱
+    passwd = 'xxxxxxxxx'  # 填入发送方邮箱的授权码,POP3
+    msg_to = '444xxxxxx@qq.com'  # 收件人邮箱
     while True:
         content, flag = gather_info()
         if flag:
